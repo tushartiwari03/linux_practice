@@ -1,0 +1,50 @@
+==========================================================
+       SYSTEM HEALTH REPORT
+==========================================================
+Date: Saturday 24 January 2026 11:05:01 PM IST
+Hostname: Mahadev
+
+--------CPU Load--------
+ 23:05:01 up  6:37,  1 user,  load average: 1.11, 1.12, 1.09
+
+------Memory Usage------
+              total        used        free      shared  buff/cache   available
+Mem:          7.4Gi       2.2Gi       1.1Gi       500Mi       4.1Gi       4.4Gi
+Swap:         2.0Gi          0B       2.0Gi
+
+Memory OK - 30%
+
+-------Disk Usage-------
+Filesystem      Size  Used Avail Use% Mounted on
+udev            3.7G     0  3.7G   0% /dev
+tmpfs           759M  2.5M  756M   1% /run
+/dev/nvme0n1p2  234G   16G  206G   8% /
+tmpfs           3.8G     0  3.8G   0% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           3.8G     0  3.8G   0% /sys/fs/cgroup
+/dev/loop0      128K  128K     0 100% /snap/bare/5
+/dev/loop2       74M   74M     0 100% /snap/core22/2133
+/dev/loop3       13M   13M     0 100% /snap/snap-store/959
+/dev/loop7      347M  347M     0 100% /snap/gnome-3-38-2004/119
+/dev/loop5       51M   51M     0 100% /snap/snapd/25202
+/dev/loop6      350M  350M     0 100% /snap/gnome-3-38-2004/143
+/dev/loop4       64M   64M     0 100% /snap/core20/2599
+/dev/loop8       13M   13M     0 100% /snap/snap-store/1216
+/dev/loop10     517M  517M     0 100% /snap/gnome-42-2204/202
+/dev/loop12      92M   92M     0 100% /snap/gtk-common-themes/1535
+/dev/nvme0n1p1  511M  6.1M  505M   2% /boot/efi
+tmpfs           759M   56K  759M   1% /run/user/1000
+/dev/loop13      64M   64M     0 100% /snap/core20/2686
+/dev/loop11      49M   49M     0 100% /snap/snapd/25935
+/dev/loop9      532M  532M     0 100% /snap/gnome-42-2204/247
+/dev/loop14      74M   74M     0 100% /snap/core22/2216
+
+Disk usage is normal - 8%
+
+-----Top 5 Processes (Memory)------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+tushar03    7563  0.5  6.3 3125192 495680 ?      Sl   19:36   1:14 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 39996 -prefMapHandle 1 -prefMapSize 264222 -jsInitHandle 2 -jsInitLen 247456 -parentBuildID 20250227124745 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {16fdfdde-c3c1-4a14-9848-7eb99eec2e46} -parentPid 7249 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 9 tab
+tushar03    7249  0.8  5.2 3787148 410416 ?      Sl   19:36   1:43 /usr/lib/firefox/firefox -new-window
+mysql        800  0.6  5.1 2382464 397432 ?      Ssl  16:28   2:39 /usr/sbin/mysqld
+tushar03    7462  0.6  4.0 2980700 313316 ?      Sl   19:36   1:15 /usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 39736 -prefMapHandle 1 -prefMapSize 264222 -jsInitHandle 2 -jsInitLen 247456 -parentBuildID 20250227124745 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {8002be08-517b-4fbe-8fe7-fecead1512b3} -parentPid 7249 -crashReporter 6 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 8 tab
+tushar03    2745  0.5  3.4 4501552 268120 ?      Ssl  16:28   2:11 /usr/bin/gnome-shell
