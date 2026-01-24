@@ -113,3 +113,23 @@ bash
 - Cron job scheduling
 - Log management with logrotate
 - Version control using Git and GitHub
+
+
+---
+
+## 🖼 Project Screenshots
+
+### 📁 Project Structure
+![Project Structure](screenshots/project_structure.png)
+
+### ▶️ Script Execution
+![Script Execution](screenshots/script_execution.png)
+
+### 📊 Health Logs
+![Health Logs](screenshots/health_log.png)
+
+### ⏰ Cron Job Scheduling
+![Cron Job](screenshots/cron_job.png)
+
+### 🌐 GitHub Repository
+![GitHub Repo](screenshots/github_repo.png)
