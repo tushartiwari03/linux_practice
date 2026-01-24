@@ -28,3 +28,88 @@ This project addresses that problem by:
 3. Logs are written to a dedicated logs directory
 4. The script is scheduled via cron to run automatically
 5. logrotate manages log size and compression
+
+---
+
+
+## 🛠 Technologies Used
+
+- Linux (Ubuntu)
+- Bash Scripting
+- Cron (Job Scheduling)
+- Logrotate (Log Management)
+- Git & GitHub (Version Control)
+
+## ⚙️ How to Run the Project
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/<tushartiwari03>/linux_practice.git
+cd linux_practice
+
+
+🔁 Replace <your-username> with your actual GitHub username.
+
+---
+
+## ▶️ 5️⃣ How to Execute the Script
+
+md
+### 2️⃣ Make the script executable
+bash
+chmod +x scripts/system_health.sh
+
+### Run Manually
+./scripts/system_health.sh
+
+
+---
+
+## ⏰ 6️⃣ Cron Job Setup
+
+md
+---
+
+## ⏰ Cron Job Scheduling
+
+Edit crontab:
+bash
+crontab -e
+
+
+*/5 * * * * /home/tushar03/linux_practice/scripts/system_health.sh >> /home/tushar03/linux_practice/logs/health.log
+
+
+
+---
+
+## 🗂 7️⃣ Log Rotation
+
+md
+---
+
+## 🗂 Log Rotation
+
+Log rotation is handled using logrotate to compress and manage old logs.
+
+Config file:
+bash
+/etc/logrotate.d/system_health
+
+
+
+
+---
+
+## 📌 8️⃣ What You Learned (VERY IMPORTANT)
+
+```md
+---
+
+## 📌 What I Learned
+
+- Linux system monitoring fundamentals
+- Bash scripting for automation
+- Cron job scheduling
+- Log management with logrotate
+- Version control using Git and GitHub
