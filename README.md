@@ -133,3 +133,40 @@ bash
 
 ### 🌐 GitHub Repository
 ![GitHub Repo](screenshots/github_repo.png)
+
+
+---
+
+# 📡 Project 2: Linux Network & Service Health Monitoring
+
+This project monitors critical Linux services and network ports to detect outages
+and log health status automatically.
+
+## 🔧 Features
+- Checks critical services (SSH, Cron)
+- Monitors important ports (22, 80, 443)
+- Logs network and service health
+- Raises alerts when issues are detected
+- Automated execution using cron
+
+## 🛠 Technologies Used
+- Linux (Ubuntu)
+- Bash Scripting
+- systemctl
+- ss (socket statistics)
+- Cron
+- Git & GitHub
+
+## 🖼 Project Screenshots
+
+### ▶️ Script Execution
+![Network Script Execution](screenshots/network_script_execution.png)
+
+### 📊 Network Health Logs
+![Network Health Logs](screenshots/network_health_log.png)
+
+### ⏰ Cron Job Scheduling
+![Network Cron Job](screenshots/network_cron_job.png)
+
+### 🧾 Script Source Code
+![Network Script Code](screenshots/network_script_code.png)
