@@ -1,0 +1,18 @@
+2026-01-30 01:12:42 | OK | CPU Load: 1.21
+2026-01-30 01:12:52 | OK | CPU Load: 1.17
+2026-01-30 01:12:53 | OK | CPU Load: 1.17
+2026-01-30 01:12:55 | OK | CPU Load: 1.17
+2026-01-30 01:23:31 | OK | CPU Load: 1.14
+2026-01-30 01:35:10 | OK | CPU Load: 1.37
+2026-01-30 01:46:55 | OK | CPU Load: 1.29
+2026-01-30 01:46:55 | OK | Issues detected: 0
+2026-01-30 14:17:05 | WARNING | High CPU Load: 1.76
+{"timestamp": "2026-01-30 14:17:05", "cpu_load": 1.76, "memory_usage": 35.9, "disk_usage": 8.2, "issues_detected": 1, "severity": "INFO"}
+2026-01-30 14:20:51 | OK | CPU Load: 1.07
+{"timestamp": "2026-01-30 14:20:51", "cpu_load": 1.07, "memory_usage": 35.8, "disk_usage": 8.2, "issues_detected": 0, "severity": "OK"}
+2026-01-30 14:23:15 | WARNING | High CPU Load: 1.2
+2026-01-30 14:23:15 | WARNING | High Memory Usage: 35.5%
+2026-01-30 14:23:15 | WARNING | High Disk Usage: 8.2%
+{"timestamp": "2026-01-30 14:23:15", "cpu_load": 1.2, "memory_usage": 35.5, "disk_usage": 8.2, "issues_detected": 3, "severity": "CRITICAL"}
+2026-01-30 14:30:00 | WARNING | High CPU Load: 1.8
+{"timestamp": "2026-01-30 14:30:00", "cpu_load": 1.8, "memory_usage": 35.9, "disk_usage": 8.2, "issues_detected": 1, "severity": "INFO"}
